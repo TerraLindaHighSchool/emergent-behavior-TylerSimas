@@ -37,7 +37,7 @@ public class Ant extends Creature
         {
             food.removeCrumb();
             carryingFood = true;
-            image1 = image2;
+            setImage(image2);
         }
     }
     

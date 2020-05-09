@@ -1,15 +1,8 @@
-Class documentation
+Project documentation
 <---- javadoc command: ---->
 C:\Program Files\Greenfoot\jdk\bin\javadoc.exe
--author
--version
--nodeprecated
--protected
--Xdoclint:none
--noindex
--notree
--nohelp
--nonavbar
+-sourcepath
+C:\Users\tyler\OneDrive\Documents\GitHub\emergent-behavior1-TylerSimas\ants
 -source
 11
 -classpath
@@ -20,10 +13,39 @@ C:\Users\tyler\OneDrive\Documents\GitHub\emergent-behavior1-TylerSimas\ants\doc
 UTF-8
 -charset
 UTF-8
-C:\Users\tyler\OneDrive\Documents\GitHub\emergent-behavior1-TylerSimas\ants\Food.java
+-doctitle
+ants
+-windowtitle
+ants
+-author
+-version
+-nodeprecated
+-protected
+-Xdoclint:none
+-link
+https://docs.oracle.com/en/java/javase/11/docs/api/
+C:\Users\tyler\OneDrive\Documents\GitHub\emergent-behavior1-TylerSimas\ants/AntWorld.java
+C:\Users\tyler\OneDrive\Documents\GitHub\emergent-behavior1-TylerSimas\ants/Counter.java
+C:\Users\tyler\OneDrive\Documents\GitHub\emergent-behavior1-TylerSimas\ants/Creature.java
+C:\Users\tyler\OneDrive\Documents\GitHub\emergent-behavior1-TylerSimas\ants/Pheremone.java
+C:\Users\tyler\OneDrive\Documents\GitHub\emergent-behavior1-TylerSimas\ants/Ant.java
+C:\Users\tyler\OneDrive\Documents\GitHub\emergent-behavior1-TylerSimas\ants/AntHill.java
+C:\Users\tyler\OneDrive\Documents\GitHub\emergent-behavior1-TylerSimas\ants/Food.java
 <---- end of javadoc command ---->
+Loading source file C:\Users\tyler\OneDrive\Documents\GitHub\emergent-behavior1-TylerSimas\ants\AntWorld.java...
+Loading source file C:\Users\tyler\OneDrive\Documents\GitHub\emergent-behavior1-TylerSimas\ants\Counter.java...
+Loading source file C:\Users\tyler\OneDrive\Documents\GitHub\emergent-behavior1-TylerSimas\ants\Creature.java...
+Loading source file C:\Users\tyler\OneDrive\Documents\GitHub\emergent-behavior1-TylerSimas\ants\Pheremone.java...
+C:\Users\tyler\OneDrive\Documents\GitHub\emergent-behavior1-TylerSimas\ants\Pheremone.java:29: error: -> expected
+        else()
+              ^
+C:\Users\tyler\OneDrive\Documents\GitHub\emergent-behavior1-TylerSimas\ants\Pheremone.java:29: error: not a statement
+        else()
+            ^
+C:\Users\tyler\OneDrive\Documents\GitHub\emergent-behavior1-TylerSimas\ants\Pheremone.java:32: error: ';' expected
+        }
+         ^
+Loading source file C:\Users\tyler\OneDrive\Documents\GitHub\emergent-behavior1-TylerSimas\ants\Ant.java...
+Loading source file C:\Users\tyler\OneDrive\Documents\GitHub\emergent-behavior1-TylerSimas\ants\AntHill.java...
 Loading source file C:\Users\tyler\OneDrive\Documents\GitHub\emergent-behavior1-TylerSimas\ants\Food.java...
-C:\Users\tyler\OneDrive\Documents\GitHub\emergent-behavior1-TylerSimas\ants\Food.java:11: error: illegal start of type
-    private  = image;
-             ^
-1 error
+3 errors
