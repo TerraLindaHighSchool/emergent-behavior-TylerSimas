@@ -24,7 +24,9 @@ public class Food extends Actor
      */
     public void act() 
     {
-        //nothing
+        if(crumbs <= 0){
+            getWorld().removeObject(this);
+        }
     }    
     
     private void updateImage()
@@ -38,14 +40,18 @@ public class Food extends Actor
              int y = (int) (stDev * random.nextGaussian( ) + 3 * stDev);
             
              // keep crumbs in image
-             if(x < 0) 
-             x = 0;
-             if(x >= size) 
-             x = size - 1;
-             if(y < 0) 
-             y = 0;
-             if(y >= size) 
-             y = size - 1;
+             if(x < 0) {
+                 x = 0;
+            }
+             if(x >= size) {
+                 x = size - 1;
+            }
+             if(y < 0) {
+                 y = 0;
+            }
+             if(y >= size) {
+                 y = size - 1;
+            }
      
              Color color = new Color(91, 217, 102);  // pick the color you want by replacing r, g, b with values.
              image.setColorAt(x, y, color);

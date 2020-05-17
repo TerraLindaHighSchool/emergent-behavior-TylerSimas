@@ -53,4 +53,9 @@ public class Pheremone extends Actor
         setImage(image);
         
     }
+    
+    public int getIntensity()
+    {
+        return intensity;
+    }
 }
